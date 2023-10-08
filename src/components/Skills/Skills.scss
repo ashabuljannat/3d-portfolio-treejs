@@ -1,0 +1,88 @@
+.star {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  left: 30%;
+}
+.starWhite {
+  left: 50px;
+  background-color: #addbe4;
+  box-shadow: 0 0 15px #fff;
+  transform: rotate(220deg);
+  &::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    height: 40px;
+    width: 10px;
+    background-color: #a9e3ed;
+    clip-path: polygon(95% 0, 5% 0, 55% 100%);
+  }
+  animation: staring1 2s infinite linear;
+  @keyframes staring1 {
+    0% {
+      left: 25%;
+      top: 100px;
+    }
+
+    100% {
+      left: 5%;
+      top: 500px;
+    }
+  }
+}
+.starRed {
+  left: 100px;
+  background-color: #ee1250;
+  box-shadow: 0 0 15px #ededed;
+  transform: rotate(220deg);
+  &::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    height: 40px;
+    width: 10px;
+    background-color: #ee1250;
+    clip-path: polygon(95% 0, 5% 0, 55% 100%);
+  }
+  animation: staring2 3s 1s infinite linear;
+  @keyframes staring2 {
+    0% {
+      left: 45%;
+      top: 100px;
+    }
+
+    100% {
+      left: 25%;
+      top: 500px;
+    }
+  }
+}
+.starYellow {
+  left: 170px;
+  background-color: #f8d405;
+  box-shadow: 0 0 15px #fffdf5;
+  transform: rotate(220deg);
+  &::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    height: 40px;
+    width: 10px;
+    background-color: #f8d405;
+    clip-path: polygon(95% 0, 5% 0, 55% 100%);
+  }
+  animation: staring3 5s 2s infinite linear;
+  @keyframes staring3 {
+    0% {
+      left: 800px;
+      top: 100px;
+    }
+
+    100% {
+      left: 600px;
+      top: 500px;
+    }
+  }
+}
