@@ -1,50 +1,16 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
   typescript,
   html,
-  css,
   npm,
   firebase,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  rn,
-  carrent,
-  jobit,
-  tripguide,
   android,
   socket,
-  micple,
-  bangali,
-  hasan,
-  portfolio,
-  aisbook,
-  apartment,
-  agency,
-  travelTour,
-  athenaDesign,
-  swas,
-  tastyFood,
-  beachTravel,
-  wix,
-  imageEditor,
-  youdios,
-  blog,
-  need,
-  todo,
-  converter,
   graphql,
 } from "../assets";
 
@@ -80,22 +46,22 @@ const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Web Developer",
+  //   icon: web,
+  // },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const skills = [
@@ -115,7 +81,9 @@ const skills = [
       "Tailwind",
       "Animate.css",
       "CSS generators",
-      "ScrollReval.js",
+      "tailwind css",
+      "tailwind-ui",
+      "tailwind config",
     ],
   },
   // {
@@ -143,11 +111,11 @@ const skills = [
       "Animate On Scroll.js",
     ],
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-    allTech: ["tailwind css", "tailwind-ui", "tailwind config"],
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  //   allTech: ["tailwind css", "tailwind-ui", "tailwind config"],
+  // },
   {
     name: "npm",
     icon: npm,
@@ -298,7 +266,7 @@ const experiences = [
   {
     title: "Front end Developer",
     company_name: "Micple ltd",
-    icon: micple,
+    icon: "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fcompany%2Fmicple.jpeg?alt=media&token=d5214e11-be03-4b6f-a735-d7dbd461c63c&_gl=1*1eyy1xf*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTI2NDQuNTUuMC4w",
     iconBg: "#383E56",
     date: "Jan 2023 - March 2023",
     points: [
@@ -312,7 +280,7 @@ const experiences = [
   {
     title: "JS Developer",
     company_name: "Bangali Tech",
-    icon: bangali,
+    icon: "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fcompany%2Fbangali.jpeg?alt=media&token=af89f84d-f6a5-49b1-9741-1d3f7566e90a&_gl=1*njj9tl*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTI2ODUuMTQuMC4w",
     iconBg: "#383E56",
     date: "Sep 2021 - Nov 2022",
     points: [
@@ -325,7 +293,7 @@ const experiences = [
   {
     title: "HTML trainer",
     company_name: "Hasan IT",
-    icon: hasan,
+    icon: "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fcompany%2Fhasan.png?alt=media&token=ed6aef47-d737-41a5-86dc-bb14b4dcecc0&_gl=1*sdsc67*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTI3MDkuNjAuMC4w",
     iconBg: "#383E56",
     date: "Nov 2020 - Dec 2020",
     points: [
@@ -395,7 +363,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: aisbook,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Faisbook.jpg?alt=media&token=3c88c159-dc90-476e-84d7-747e1eaf06ec&_gl=1*5nj3x6*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTMwMTUuNTguMC4w",
     source_code_link: "https://github.com/ashabuljannat/aisbook",
     video_link:
       "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-projects%2Fvideo%2F2023-08-06-20-06-46.mp4?alt=media&token=ae55b147-de8d-4fbe-94c8-fc2f9552279c",
@@ -424,7 +393,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: blog,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fblog.jpg?alt=media&token=907d505d-0e1e-4ba4-9cdc-70042367f352&_gl=1*2gwaff*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTMwNTYuMTcuMC4w",
     source_code_link: "https://github.com/ashabuljannat/blog-sanity-front",
     video_link:
       "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-projects%2Fvideo%2F2023-09-12-17-50-58.mp4?alt=media&token=ac22b9bc-ca43-4465-860f-e8639afe35dc",
@@ -465,7 +435,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: todo,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Ftodo.jpg?alt=media&token=0680752b-015f-433b-bbbd-76575065f8ac&_gl=1*x9cgij*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTM3MDEuNjAuMC4w",
     source_code_link: "https://github.com/ashabuljannat/todo-mern/",
     video_link:
       "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-projects%2Fvideo%2Ftodo_2023-10-05-14-50-43.mp4?alt=media&token=206ca3d8-ddd1-4a8e-85c0-cfef0977ef55&_gl=1*19fsxxf*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5NjUxMjU4OC40Ny4xLjE2OTY1MTI3OTMuNTguMC4w",
@@ -495,7 +466,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: agency,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fagency.jpg?alt=media&token=b2aa038b-1098-4720-8692-44b94a9f1ba7&_gl=1*1s7mbbh*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTM3MzQuMjcuMC4w",
     source_code_link: "https://github.com/ashabuljannat/creative-agency",
     video_link:
       "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-projects%2Fvideo%2F2023-08-06-23-10-35.mp4?alt=media&token=55385957-4f3d-4b40-865d-43ff203f4daa",
@@ -524,7 +496,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: apartment,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fapartment.jpg?alt=media&token=3fbb2c1f-e782-4b08-ac44-05c63e414521&_gl=1*1bct2we*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTM3NjIuNjAuMC4w",
     source_code_link: "https://github.com/ashabuljannat",
     video_link:
       "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-projects%2Fvideo%2F2023-08-06-22-09-15.mp4?alt=media&token=aaf0021b-ab7b-4889-8149-3cac023fe627",
@@ -553,7 +526,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: travelTour,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2FtravelTour.jpg?alt=media&token=adcbf155-5a4c-4a40-bd24-06fb7d734e55&_gl=1*2f701w*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTM4MjUuNjAuMC4w",
     source_code_link: "https://github.com/ashabuljannat/travel-guru-ass9",
     video_link:
       "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-projects%2Fvideo%2Ftravel-tour-2023-08-07-08-44-03.mp4?alt=media&token=d5d6868d-e2ca-406c-860a-7e54b6923705",
@@ -582,7 +556,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: athenaDesign,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fathena-design.jpg?alt=media&token=6b6e7967-41e0-491c-ab43-23928f516a0c&_gl=1*a39h3y*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTM5ODcuNjAuMC4w",
     source_code_link: "https://github.com/ashabuljannat/athena-design-client",
     video_link: "",
     site_link: "https://athena-design-client2020.netlify.app",
@@ -610,7 +585,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: portfolio,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fportpholio.jpg?alt=media&token=278c7664-e72d-4335-a6b6-89e0405662fd&_gl=1*6ttmjx*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTQwNTYuNjAuMC4w",
     source_code_link: "https://github.com/ashabuljannat/portfolio-next-3.9.22",
     video_link:
       "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-projects%2Fvideo%2F2023-08-05-19-48-12.mp4?alt=media&token=2327bf9a-b535-4e36-ac9c-9af074a83756",
@@ -647,7 +623,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: converter,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fconver-Screenshot%202023-10-07%20193202.jpg?alt=media&token=66b8bd38-28e3-4554-a2e8-ae254f32f818&_gl=1*1h1u3am*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTQxMTIuNC4wLjA.",
     source_code_link: "https://github.com/ashabuljannat/file-converter",
     video_link: "",
     site_link: "https://file-media-converter.netlify.app",
@@ -675,7 +652,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: youdios,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fyoudios.jpg?alt=media&token=09884550-b7a6-42ed-b842-a0a3f8b351f2&_gl=1*m1nxh4*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTQxNzkuNjAuMC4w",
     source_code_link: "https://github.com/ashabuljannat/youdios",
     video_link:
       "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-projects%2Fvideo%2Fyoudios-2023-08-27-11-21-33.mp4?alt=media&token=6cbebe4d-c6c7-41b9-8bbf-7a07a2f478d1",
@@ -700,7 +678,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tastyFood,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Ftasty-food2.jpg?alt=media&token=0e60adce-ab76-4154-8ff6-5b632c579cb3&_gl=1*1jc01ao*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTQyNDIuNjAuMC4w",
     source_code_link: "https://github.com/ashabuljannat/recp-food-site",
     video_link: "",
     site_link: "https://ashabuljannat.github.io/recp-food-site/index.html",
@@ -724,7 +703,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: beachTravel,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2FbeachTravel.jpg?alt=media&token=4c72ae0b-1090-40c0-8967-ce672439689c&_gl=1*1h49sfl*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTQyODQuMTguMC4w",
     source_code_link: "https://github.com/ashabuljannat/Beach-Travel",
     video_link: "",
     site_link: "https://ashabuljannat.github.io/Beach-Travel",
@@ -748,7 +728,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: wix,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fwix-portfolio.jpg?alt=media&token=3139b40a-5df2-4ac8-b408-228833af6fbe&_gl=1*unl7kh*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTQzNDIuNjAuMC4w",
     source_code_link: "https://github.com/ashabuljannat",
     video_link: "",
     site_link: "https://2alifashabuljannat.wixsite.com/mysite",
@@ -776,7 +757,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: need,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fneed-for-speed.jpg?alt=media&token=cc9439aa-0279-4683-9329-7c48edaa5bc8&_gl=1*y7sjz1*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTQzODIuMjAuMC4w",
     source_code_link: "https://github.com/ashabuljannat/needforspeed_car-sell",
     video_link: "",
     site_link: "http://need-for-speed.surge.sh/",
@@ -800,7 +782,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: imageEditor,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fimage-editor.jpg?alt=media&token=3ee912b3-42ef-4089-b5fe-623e49a51d53&_gl=1*1wf0mwx*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTQ0MzMuNjAuMC4w",
     source_code_link: "https://github.com/ashabuljannat/image-editor",
     video_link: "",
     site_link: "https://ashabuljannat.github.io/image-editor",
@@ -836,7 +819,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fcarrent.png?alt=media&token=cf0338e8-1e25-485c-9c89-b833920da7fd&_gl=1*dmtso*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTQ1MDUuNjAuMC4w",
     source_code_link: "https://github.com/",
     video_link:
       "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-projects%2Fvideo%2F2023-08-05-19-48-12.mp4?alt=media&token=2327bf9a-b535-4e36-ac9c-9af074a83756",
@@ -873,7 +857,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: swas,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fswas.jpg?alt=media&token=0417f0a2-40c6-48e1-ac62-a5766bffcf21&_gl=1*1lba62*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTQ1NjIuMy4wLjA.",
     source_code_link: "https://github.com/",
     video_link: "",
     site_link: "https://swas-2021.netlify.app/",

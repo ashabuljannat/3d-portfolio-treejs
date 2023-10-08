@@ -1,9 +1,7 @@
-import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { profile } from "../assets";
 import { SectionDivider, SectionText } from "../utils/styled-components";
 import TimeLineTitle from "./TimeLine/TimeLineTitle";
 
@@ -55,7 +53,7 @@ const About = () => {
         >
           <div className="w-[500px] h-[400px] object-contain absolute -z-10">
             <img
-              src={profile}
+              src="https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprofile.jpg?alt=media&token=7b9bc944-fa48-4208-bb75-7561732273d1&_gl=1*6x98pd*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njc1MDk3NC40OC4xLjE2OTY3NTE5NzEuNjAuMC4w"
               alt="web-development"
               className="w-[500px] h-[400px] object-contain absolute"
             />

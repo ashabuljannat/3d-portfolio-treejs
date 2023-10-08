@@ -44,7 +44,7 @@ export const VolData = {
   text: " There is a welfare of Savar for students, where I have been as upazila director since 2015. Helping students, conducting career development activities.",
 };
 export const AchivData = [
-  { number: "50+", text: "Git & Bitbucket Repo Projects + Codepen Work" },
+  { number: "60+", text: "Git & Bitbucket Repo Projects + Codepen Work" },
   { number: "A+", text: "Most Attendant Student in Department & Privet" },
   {
     number: "A+",
