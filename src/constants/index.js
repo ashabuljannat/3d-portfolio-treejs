@@ -563,6 +563,39 @@ const projects = [
     site_link: "https://athena-design-client2020.netlify.app",
   },
   {
+    name: "TakeBook",
+    stack: "react",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fontawesome",
+        color: "green-text-gradient",
+      },
+      {
+        name: "date-fns",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react-date-range",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "react-router-dom",
+        color: "orange-text-gradient",
+      },
+    ],
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Ftakebook-Screenshot%202023-09-15%20214617.jpg?alt=media&token=c225fa69-78d4-4eee-81b2-7d5bcbcf9f9b&_gl=1*1wmq3vu*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njg2ODQxNS41MC4xLjE2OTY4Njg1MjAuMTcuMC4w",
+    source_code_link: "https://github.com/ashabuljannat/takebook",
+    video_link: "",
+    site_link: "https://take-book.netlify.app/",
+  },
+  {
     name: "Portfolio",
     stack: "react",
     description:
@@ -762,6 +795,35 @@ const projects = [
     source_code_link: "https://github.com/ashabuljannat/needforspeed_car-sell",
     video_link: "",
     site_link: "http://need-for-speed.surge.sh/",
+  },
+  {
+    name: "gymmeet",
+    stack: "html",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "row js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "swiper js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scroll-reveal",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "remix-icon",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/ashabuljannat55.appspot.com/o/portfolio-treejs%2Fassets%2Fprojects%2Fgymmeet-Screenshot%202023-10-09%20222728.jpg?alt=media&token=3bc0faaf-56c1-45d6-b535-e2ba63203f81&_gl=1*xsdp39*_ga*MjY1MTgwODguMTY1NjUxNzA5NA..*_ga_CW55HF8NVT*MTY5Njg2ODQxNS41MC4xLjE2OTY4Njg5ODUuMjguMC4w",
+    source_code_link: "https://github.com/ashabuljannat/gymmeet",
+    video_link: "",
+    site_link: "https://ashabuljannat.github.io/gymmeet/",
   },
   {
     name: "Image Editor",
